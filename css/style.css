@@ -22,14 +22,20 @@ nav {
 }
 
 .restaurant-list {
-  padding-top: 70px;
-  padding-left: 20px;
+  padding-top: 50px;
   width: 100%
 }
 
 .arrow {
-  padding-left: 375px;
+  width: 10%;
+  float: left;
+  padding-top: 18px;
+}
 
+.content {
+  padding: 10px 20px 10px 20px;
+  width: 90%;
+  float: left;
 }
 
 .content h1 {
@@ -43,5 +49,14 @@ nav {
 }
 
 .location:hover {
-  color:#0070BC;
+  background-color:#0070BC;
+}
+
+.location {
+  border-bottom: 1px solid black;
+}
+
+.location::after{
+  content: "";
+  display: table; clear: both;
 }
